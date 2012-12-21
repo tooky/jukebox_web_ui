@@ -22,6 +22,17 @@ end
 
 gem 'jquery-rails'
 
+group :test do
+  gem 'rspec-expectations'
+  gem 'cucumber-rails'
+  gem 'guard-cucumber'
+  gem 'capybara'
+  gem 'terminal-notifier-guard'
+  gem 'rb-fsevent'
+end
+
+gem 'wedding_jukebox-core', path: File.expand_path('../../wedding_jukebox-core', __FILE__), require: false
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
