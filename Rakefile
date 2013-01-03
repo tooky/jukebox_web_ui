@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-WeddingJukeboxWebUi::Application.load_tasks
+JukeboxWebUi::Application.load_tasks

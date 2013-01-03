@@ -1,11 +1,11 @@
-require 'wedding_jukebox/core'
+require 'jukebox/core'
 
-World(WeddingJukebox::TestDataBuilder)
+World(Jukebox::TestDataBuilder)
 
-module WeddingJukebox
+module Jukebox
   module Players
     def catalogue
-      @catalogue ||= FakeCatalogue.new #WeddingJukebox.catalogue
+      @catalogue ||= FakeCatalogue.new #Jukebox.catalogue
     end
 
     def jukebox
@@ -25,6 +25,6 @@ module WeddingJukebox
     end
   end
 end
-World(WeddingJukebox::Players)
+World(Jukebox::Players)
 
 require 'capybara/cucumber'

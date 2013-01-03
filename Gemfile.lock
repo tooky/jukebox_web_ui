@@ -1,7 +1,7 @@
 PATH
-  remote: /Users/steve/Code/wedding-jukebox/wedding_jukebox-core
+  remote: /Users/steve/Code/jukebox/jukebox-core
   specs:
-    wedding_jukebox-core (0.0.1)
+    jukebox-core (0.0.1)
       rest-client
       virtus
 
@@ -178,6 +178,7 @@ DEPENDENCIES
   cucumber-rails
   guard-cucumber
   jquery-rails
+  jukebox-core!
   rails (= 3.2.9)
   rb-fsevent
   rspec-expectations
@@ -185,4 +186,3 @@ DEPENDENCIES
   sqlite3
   terminal-notifier-guard
   uglifier (>= 1.0.3)
-  wedding_jukebox-core!
